@@ -1,0 +1,10 @@
+configs {
+  key: "autogbt.py35"
+  value {
+    command: ".pfnci/test.sh"
+    environment_variables {
+      key: "PYTHON_VERSION"
+      value: "3.5"
+    }
+  }
+}

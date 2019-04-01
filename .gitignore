@@ -1,0 +1,11 @@
+__pycache__
+.python-version
+*.zip
+*.csv
+*.txt
+!requirements.txt
+!requirements-dev.txt
+build/*
+dist/*
+*.egg-info/*
+benchmark/result/*
